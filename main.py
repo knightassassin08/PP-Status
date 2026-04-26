@@ -6,8 +6,6 @@ import os
 
 # ---------- CONFIG ----------
 CHECK_INTERVAL = 1800  # 30 mins
-TELEGRAM_CHAT_ID = "8659477480"
-TELEGRAM_TOKEN = "8737828968:AAEv0gt8uUWe0Yb0EP-WiBL_TC_h5pcGeSA"
 
 # ---------- STORAGE ----------
 def load_last_status():
@@ -28,11 +26,8 @@ def log(message):
 
 # ---------- NOTIFICATION ----------
 def notify(message, silent=False):
-    #token = os.getenv("TELEGRAM_TOKEN")
-    #chat_id = os.getenv("TELEGRAM_CHAT_ID")
-
-    token = TELEGRAM_TOKEN
-    chat_id = TELEGRAM_CHAT_ID
+    token = os.getenv("TELEGRAM_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
     if not token or not chat_id:
         print("Telegram not configured")
@@ -119,16 +114,15 @@ def main():
     notify("Passport tracker is running")
     log("Tracker started")
 
-    heartbeat_counter = 0
+    heartbeat_counter = 1
 
     while True:
+        check_for_update()
+        heartbeat_counter += 1
+
         if heartbeat_counter % 6 == 0:  # every 3 hours (30min * 6)
             notify(f"🟢 Tracker alive ({time.ctime()})", silent=True)
-
-            heartbeat_counter += 1
         
-        check_for_update()
-
         time.sleep(CHECK_INTERVAL)
 
 if __name__ == "__main__":
