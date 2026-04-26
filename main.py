@@ -1,4 +1,5 @@
 from datetime import datetime
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select, WebDriverWait
@@ -30,10 +31,25 @@ def log(message):
         f.write(f"{datetime.now()} - {message}\n")
 
 # ---------- NOTIFICATION ----------
-def notify(title, message):
-    os.system(f'''
-    osascript -e 'display notification "{message}" with title "{title}"'
-    ''')
+def notify(message):
+    token = os.getenv("TELEGRAM_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+
+    if not token or not chat_id:
+        print("Telegram not configured")
+        return
+
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+
+    data = {
+        "chat_id": chat_id,
+        "text": message
+    }
+
+    try:
+        requests.post(url, data=data)
+    except Exception as e:
+        print("Telegram error:", e)
 
 # ---------- YOUR FETCH FUNCTION ----------
 def fetch_status():
@@ -83,6 +99,14 @@ def fetch_status():
     value = row.find_element(By.TAG_NAME, "span").text
     status = f"{label}: {value}"
 
+    status = f"""
+📄 Passport Update
+
+{status}
+
+⏱ {time.ctime()}
+"""
+
     driver.quit()
 
     return status
@@ -98,7 +122,7 @@ def check_for_update():
         log(f"Status changed: {new_status}")
         save_status(new_status)
 
-        notify("Passport Update", new_status)
+        notify("Passport Update" + new_status)
         print("🔔 Status changed:", new_status)
     else:
         log("No change")
@@ -106,7 +130,7 @@ def check_for_update():
 
 # ---------- START ----------
 def main():
-    notify("Tracker Started", "Passport tracker is running")
+    notify("Tracker Started" + "Passport tracker is running")
     log("Tracker started")
 
     while True:
