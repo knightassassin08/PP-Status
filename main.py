@@ -114,22 +114,33 @@ def check_for_update():
 
 # ---------- START ----------
 def main():
-    notify("Passport tracker is running")
-    log("Tracker started")
-    print("🚀 Tracker started", flush=True)
+    try:
+        notify("Passport tracker is running")
+        print("🚀 Tracker started", flush=True)
 
-    heartbeat_counter = 0
+        heartbeat_counter = 0
 
-    while True:
-        print("Checking status...", flush=True)
+        while True:
+            try:
+                print("Checking status...", flush=True)
 
-        check_for_update()
-        heartbeat_counter += 1
+                check_for_update()
 
-        if heartbeat_counter % 6 == 0:  # every 3 hours (30min * 6)
-            notify(f"🟢 Tracker alive ({time.ctime()})", silent=True)
-        
-        time.sleep(CHECK_INTERVAL)
+                heartbeat_counter += 1
+
+                if heartbeat_counter % 6 == 0:
+                    notify(f"🟢 Alive ({time.ctime()})", silent=True)
+
+                time.sleep(CHECK_INTERVAL)
+
+            except Exception as e:
+                print("ERROR in loop:", e, flush=True)
+                notify(f"❌ Error: {e}")
+                time.sleep(60)  # wait before retry
+
+    except Exception as e:
+        print("FATAL ERROR:", e, flush=True)
+        notify(f"💀 Fatal crash: {e}")
 
 if __name__ == "__main__":
     main()
