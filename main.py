@@ -29,6 +29,9 @@ def notify(message, silent=False):
     token = os.getenv("TELEGRAM_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
+    print("TOKEN:", os.getenv("TELEGRAM_TOKEN"), flush=True)
+    print("CHAT ID:", os.getenv("TELEGRAM_CHAT_ID"), flush=True)
+
     if not token or not chat_id:
         print("Telegram not configured")
         return
@@ -113,10 +116,13 @@ def check_for_update():
 def main():
     notify("Passport tracker is running")
     log("Tracker started")
+    print("🚀 Tracker started", flush=True)
 
-    heartbeat_counter = 1
+    heartbeat_counter = 0
 
     while True:
+        print("Checking status...", flush=True)
+
         check_for_update()
         heartbeat_counter += 1
 

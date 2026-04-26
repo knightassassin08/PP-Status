@@ -546,3 +546,42 @@ Status: Police Report has been submitted by Commissioner of Police, District Ern
 
 ⏱ Sun Apr 26 22:56:25 2026
 
+2026-04-26 23:12:21.810218 - Checking status...
+2026-04-26 23:12:38.308450 - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select.form-select"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000104bb1ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104ba9e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x000000010466f8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001046b78b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x00000001046f784c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x00000001046ad27c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000104b6ff60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x0000000104b73744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x0000000104b54e50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x0000000104b73fc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x0000000104b45828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000104b98920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000104b98a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000104ba9ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-26 23:17:18.884145 - Tracker started
+2026-04-26 23:17:18.884421 - Checking status...
+2026-04-26 23:17:30.517016 - Status changed: 
+📄 Passport Update
+
+Status: Police Report has been submitted by Commissioner of Police, District Ernakulam City and action for passport printing is initiated, to be followed by lamination, signing, quality check and dispatch.
+
+⏱ Sun Apr 26 23:17:30 2026
+
+2026-04-26 23:23:11.402393 - Tracker started
+2026-04-26 23:23:11.402653 - Checking status...
+2026-04-26 23:23:15.274309 - Status changed: 
+📄 Passport Update
+
+Status: Police Report has been submitted by Commissioner of Police, District Ernakulam City and action for passport printing is initiated, to be followed by lamination, signing, quality check and dispatch.
+
+⏱ Sun Apr 26 23:23:15 2026
+
