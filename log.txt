@@ -497,3 +497,52 @@ Stacktrace:
 2026-04-26 22:08:29.693725 - Checking status...
 2026-04-26 22:12:05.160248 - Checking status...
 2026-04-26 22:12:12.980324 - No change
+2026-04-26 22:41:07.657843 - Tracker started
+2026-04-26 22:41:07.658160 - Checking status...
+2026-04-26 22:41:16.847743 - Error: Page.fill: Error: Malformed value
+Call log:
+  - waiting for locator("input[type='date']")
+    - locator resolved to <input value="" type="date" max="2026-04-26" class="form-control"/>
+    - fill("08-05-2008")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+2026-04-26 22:42:12.906927 - Checking status...
+2026-04-26 22:42:21.857796 - No change
+2026-04-26 22:43:41.587992 - Tracker started
+2026-04-26 22:43:41.589662 - Checking status...
+2026-04-26 22:43:44.705311 - Error: Page.fill: Error: Malformed value
+Call log:
+  - waiting for locator("input[type='date']")
+    - locator resolved to <input value="" type="date" max="2026-04-26" class="form-control"/>
+    - fill("08-05-2008")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+2026-04-26 22:45:56.981012 - Tracker started
+2026-04-26 22:45:56.982717 - Checking status...
+2026-04-26 22:46:01.378536 - Error: Locator.inner_text: Error: strict mode violation: locator(".trackApplicationServiceList").nth(6).locator("span") resolved to 2 elements:
+    1) <span>…</span> aka locator("span").filter(has_text="Police Report has been").first
+    2) <span>Police  Report  has been  submitted by Commission…</span> aka get_by_text("Police Report has been")
+
+Call log:
+  - waiting for locator(".trackApplicationServiceList").nth(6).locator("span")
+
+2026-04-26 22:47:07.986664 - Tracker started
+2026-04-26 22:47:07.987813 - Checking status...
+2026-04-26 22:47:11.999954 - Status changed: 
+            📄 Passport Update
+
+            Status: Police Report has been submitted by Commissioner of Police, District Ernakulam City and action for passport printing is initiated, to be followed by lamination, signing, quality check and dispatch.
+
+            ⏱ Sun Apr 26 22:47:11 2026
+            
+2026-04-26 22:56:21.077046 - Tracker started
+2026-04-26 22:56:21.977956 - Checking status...
+2026-04-26 22:56:25.622354 - Status changed: 
+📄 Passport Update
+
+Status: Police Report has been submitted by Commissioner of Police, District Ernakulam City and action for passport printing is initiated, to be followed by lamination, signing, quality check and dispatch.
+
+⏱ Sun Apr 26 22:56:25 2026
+

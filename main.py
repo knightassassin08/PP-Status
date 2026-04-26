@@ -1,17 +1,13 @@
 from datetime import datetime
 import requests
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select, WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from playwright.sync_api import sync_playwright
 import time
 import os
-from selenium.webdriver.chrome.options import Options
 
 # ---------- CONFIG ----------
 CHECK_INTERVAL = 1800  # 30 mins
+TELEGRAM_CHAT_ID = "8659477480"
+TELEGRAM_TOKEN = "8737828968:AAEv0gt8uUWe0Yb0EP-WiBL_TC_h5pcGeSA"
 
 # ---------- STORAGE ----------
 def load_last_status():
@@ -31,9 +27,12 @@ def log(message):
         f.write(f"{datetime.now()} - {message}\n")
 
 # ---------- NOTIFICATION ----------
-def notify(message):
-    token = os.getenv("TELEGRAM_TOKEN")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+def notify(message, silent=False):
+    #token = os.getenv("TELEGRAM_TOKEN")
+    #chat_id = os.getenv("TELEGRAM_CHAT_ID")
+
+    token = TELEGRAM_TOKEN
+    chat_id = TELEGRAM_CHAT_ID
 
     if not token or not chat_id:
         print("Telegram not configured")
@@ -43,7 +42,8 @@ def notify(message):
 
     data = {
         "chat_id": chat_id,
-        "text": message
+        "text": message,
+        "disable_notification": silent  # 🔥 THIS makes it silent
     }
 
     try:
@@ -53,53 +53,40 @@ def notify(message):
 
 # ---------- YOUR FETCH FUNCTION ----------
 def fetch_status():
-    options = Options()
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
-    # modern headless
-    options.add_argument("--headless=new")
+        # Open page
+        page.goto("https://www.passportindia.gov.in/psp/trackApplicationService")
 
-    # stability flags (VERY important)
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920,1080")
+        # Select dropdown
+        page.select_option("select.form-select", "Application_Status")
 
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=options
-    )
+        # Fill inputs
+        page.fill("#formBasicEmail", "CO2076688155426")
 
-    wait = WebDriverWait(driver, 10)
+        # IMPORTANT: Playwright needs YYYY-MM-DD
+        page.fill("input[type='date']", "2008-05-08")
 
-    # Open tracking page
-    driver.get("https://www.passportindia.gov.in/psp/trackApplicationService")
+        # Click submit
+        page.click(".checkAppointmentButton")
 
-    time.sleep(3) # Wait for page to load
+        # Wait for results
+        page.wait_for_selector(".trackApplicationServiceList")
 
-    dropdown = Select(driver.find_element(By.CSS_SELECTOR, "select.form-select"))
+        # Get all rows
+        rows = page.locator(".trackApplicationServiceList")
 
-    dropdown.select_by_value("Application_Status")
+        count = rows.count()
+        last_row = rows.nth(count - 1)
 
-    file_input = driver.find_element(By.ID, "formBasicEmail")
-    file_input.send_keys("CO2076688155426")
+        label = last_row.locator("b").inner_text()
+        value = last_row.locator("span").nth(1).inner_text()
 
-    dob_input = driver.find_element(By.CSS_SELECTOR, "input[type='date']")
-    dob_input.send_keys("08-05-2008")
+        status = f"{label}: {value}"
 
-    # Submit
-    submit_btn = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "checkAppointmentButton")))
-    submit_btn.click()
-
-    wait.until(EC.presence_of_element_located((By.CLASS_NAME, "trackApplicationServiceList")))
-
-    rows = driver.find_elements(By.CLASS_NAME, "trackApplicationServiceList")
-    row = rows[-1]
-
-    label = row.find_element(By.TAG_NAME, "b").text
-    value = row.find_element(By.TAG_NAME, "span").text
-    status = f"{label}: {value}"
-
-    status = f"""
+        status = f"""
 📄 Passport Update
 
 {status}
@@ -107,9 +94,8 @@ def fetch_status():
 ⏱ {time.ctime()}
 """
 
-    driver.quit()
-
-    return status
+        browser.close()
+        return status
 
 # ---------- MAIN CHECK ----------
 def check_for_update():
@@ -122,23 +108,26 @@ def check_for_update():
         log(f"Status changed: {new_status}")
         save_status(new_status)
 
-        notify("Passport Update" + new_status)
-        print("🔔 Status changed:", new_status)
+        notify(new_status)
+        print(new_status)
     else:
         log("No change")
         print("No change")
 
 # ---------- START ----------
 def main():
-    notify("Tracker Started" + "Passport tracker is running")
+    notify("Passport tracker is running")
     log("Tracker started")
 
+    heartbeat_counter = 0
+
     while True:
-        try:
-            check_for_update()
-        except Exception as e:
-            log(f"Error: {e}")
-            print("Error:", e)
+        if heartbeat_counter % 6 == 0:  # every 3 hours (30min * 6)
+            notify(f"🟢 Tracker alive ({time.ctime()})", silent=True)
+
+            heartbeat_counter += 1
+        
+        check_for_update()
 
         time.sleep(CHECK_INTERVAL)
 
