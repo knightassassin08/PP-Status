@@ -1,0 +1,485 @@
+2026-04-21 22:56:51.047017 - Tracker started
+2026-04-21 22:56:51.047157 - Checking status...
+2026-04-21 22:57:00.006350 - Status changed: Status: Pending for physical police verification at respective Thana under Commissioner of Police, District Ernakulam City.
+2026-04-21 22:57:00.224970 - Error: [Errno 5] Input/output error
+2026-04-21 23:04:39.706234 - Tracker started
+2026-04-21 23:04:39.706434 - Checking status...
+2026-04-21 23:04:46.776190 - No change
+2026-04-21 23:08:48.060951 - Tracker started
+2026-04-21 23:08:48.061152 - Checking status...
+2026-04-21 23:08:55.876848 - No change
+2026-04-21 23:10:53.651890 - Tracker started
+2026-04-21 23:10:53.652555 - Checking status...
+2026-04-21 23:11:01.471444 - No change
+2026-04-21 23:12:24.541574 - Tracker started
+2026-04-21 23:12:24.541832 - Checking status...
+2026-04-21 23:12:35.343945 - No change
+2026-04-21 23:14:09.237376 - Tracker started
+2026-04-21 23:14:09.240272 - Checking status...
+2026-04-21 23:14:19.262991 - No change
+2026-04-21 23:50:07.969947 - Checking status...2026-04-22 11:24:19.729720 - Tracker started
+2026-04-22 11:24:19.730176 - Checking status...
+2026-04-22 11:24:20.716358 - Error: Message: Service /Users/muhammadsheraz/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+
+2026-04-22 11:25:24.331532 - Tracker started
+2026-04-22 11:25:24.332361 - Checking status...
+2026-04-22 11:25:25.359223 - Error: Message: Service /Users/muhammadsheraz/.wdm/drivers/chromedriver/mac64/147.0.7727.57/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+
+2026-04-22 11:27:24.071701 - Tracker started
+2026-04-22 11:27:24.072078 - Checking status...
+2026-04-22 11:27:35.752299 - No change
+2026-04-22 11:27:59.092100 - Tracker started
+2026-04-22 11:27:59.092503 - Checking status...
+2026-04-22 11:28:08.653774 - No change
+2026-04-22 11:29:23.333795 - Tracker started
+2026-04-22 11:29:23.335034 - Checking status...
+2026-04-22 11:29:32.212174 - No change
+2026-04-22 13:52:17.354286 - Tracker started
+2026-04-22 13:52:17.354742 - Checking status...
+2026-04-22 13:52:37.257721 - No change
+2026-04-22 14:05:06.898279 - Tracker started
+2026-04-22 14:05:06.899520 - Checking status...
+2026-04-22 14:05:23.550027 - No change
+2026-04-22 14:41:37.587562 - Tracker started
+2026-04-22 14:41:37.588005 - Checking status...
+2026-04-22 14:41:50.225437 - No change
+2026-04-22 14:50:30.250364 - Tracker started
+2026-04-22 14:50:30.250695 - Checking status...
+2026-04-22 14:50:39.613020 - Error: Message: element click intercepted: Element is not clickable at point (297, 558)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x000000010557babc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000105573a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x000000010503f7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x000000010508d14c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393184
+4   chromedriver                        0x000000010508b674 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386312
+5   chromedriver                        0x00000001050893dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377456
+6   chromedriver                        0x000000010508877c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374288
+7   chromedriver                        0x000000010507e8dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333680
+8   chromedriver                        0x000000010507e358 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332268
+9   chromedriver                        0x00000001050c7448 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631516
+10  chromedriver                        0x000000010507ce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+11  chromedriver                        0x0000000105539248 cxxbridge1$str$ptr + 2920364
+12  chromedriver                        0x000000010553ca28 cxxbridge1$str$ptr + 2934668
+13  chromedriver                        0x000000010551f1fc cxxbridge1$str$ptr + 2813792
+14  chromedriver                        0x000000010553d2a8 cxxbridge1$str$ptr + 2936844
+15  chromedriver                        0x0000000105510024 cxxbridge1$str$ptr + 2751880
+16  chromedriver                        0x0000000105562988 cxxbridge1$str$ptr + 3090156
+17  chromedriver                        0x0000000105562b04 cxxbridge1$str$ptr + 3090536
+18  chromedriver                        0x00000001055736e4 cxxbridge1$str$ptr + 3159112
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-22 15:04:25.205850 - Tracker started
+2026-04-22 15:04:25.206081 - Checking status...
+2026-04-22 15:04:34.732207 - Error: Message: element click intercepted: Element is not clickable at point (297, 675)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x00000001046d3abc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001046cba8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001041977c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001041e514c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393184
+4   chromedriver                        0x00000001041e3674 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386312
+5   chromedriver                        0x00000001041e13dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377456
+6   chromedriver                        0x00000001041e077c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374288
+7   chromedriver                        0x00000001041d68dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333680
+8   chromedriver                        0x00000001041d6358 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332268
+9   chromedriver                        0x000000010421f448 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631516
+10  chromedriver                        0x00000001041d4e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+11  chromedriver                        0x0000000104691248 cxxbridge1$str$ptr + 2920364
+12  chromedriver                        0x0000000104694a28 cxxbridge1$str$ptr + 2934668
+13  chromedriver                        0x00000001046771fc cxxbridge1$str$ptr + 2813792
+14  chromedriver                        0x00000001046952a8 cxxbridge1$str$ptr + 2936844
+15  chromedriver                        0x0000000104668024 cxxbridge1$str$ptr + 2751880
+16  chromedriver                        0x00000001046ba988 cxxbridge1$str$ptr + 3090156
+17  chromedriver                        0x00000001046bab04 cxxbridge1$str$ptr + 3090536
+18  chromedriver                        0x00000001046cb6e4 cxxbridge1$str$ptr + 3159112
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-22 16:47:08.512839 - Checking status...
+2026-04-22 16:47:17.608411 - Error: Message: element click intercepted: Element is not clickable at point (297, 705)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x0000000102dcfabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102dc7a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001028937c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001028e114c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393184
+4   chromedriver                        0x00000001028df674 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386312
+5   chromedriver                        0x00000001028dd3dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377456
+6   chromedriver                        0x00000001028dc77c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374288
+7   chromedriver                        0x00000001028d28dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333680
+8   chromedriver                        0x00000001028d2358 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332268
+9   chromedriver                        0x000000010291b448 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631516
+10  chromedriver                        0x00000001028d0e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+11  chromedriver                        0x0000000102d8d248 cxxbridge1$str$ptr + 2920364
+12  chromedriver                        0x0000000102d90a28 cxxbridge1$str$ptr + 2934668
+13  chromedriver                        0x0000000102d731fc cxxbridge1$str$ptr + 2813792
+14  chromedriver                        0x0000000102d912a8 cxxbridge1$str$ptr + 2936844
+15  chromedriver                        0x0000000102d64024 cxxbridge1$str$ptr + 2751880
+16  chromedriver                        0x0000000102db6988 cxxbridge1$str$ptr + 3090156
+17  chromedriver                        0x0000000102db6b04 cxxbridge1$str$ptr + 3090536
+18  chromedriver                        0x0000000102dc76e4 cxxbridge1$str$ptr + 3159112
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-22 19:06:19.723608 - Tracker started
+2026-04-22 19:06:19.724000 - Checking status...
+2026-04-22 19:06:30.816339 - Error: Message: element click intercepted: Element is not clickable at point (297, 703)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x00000001045afabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001045a7a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001040737c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001040c114c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393184
+4   chromedriver                        0x00000001040bf674 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386312
+5   chromedriver                        0x00000001040bd3dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377456
+6   chromedriver                        0x00000001040bc77c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374288
+7   chromedriver                        0x00000001040b28dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333680
+8   chromedriver                        0x00000001040b2358 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332268
+9   chromedriver                        0x00000001040fb448 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631516
+10  chromedriver                        0x00000001040b0e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+11  chromedriver                        0x000000010456d248 cxxbridge1$str$ptr + 2920364
+12  chromedriver                        0x0000000104570a28 cxxbridge1$str$ptr + 2934668
+13  chromedriver                        0x00000001045531fc cxxbridge1$str$ptr + 2813792
+14  chromedriver                        0x00000001045712a8 cxxbridge1$str$ptr + 2936844
+15  chromedriver                        0x0000000104544024 cxxbridge1$str$ptr + 2751880
+16  chromedriver                        0x0000000104596988 cxxbridge1$str$ptr + 3090156
+17  chromedriver                        0x0000000104596b04 cxxbridge1$str$ptr + 3090536
+18  chromedriver                        0x00000001045a76e4 cxxbridge1$str$ptr + 3159112
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-22 19:07:00.466513 - Tracker started
+2026-04-22 19:07:00.466795 - Checking status...
+2026-04-22 19:07:08.721223 - Error: Message: element click intercepted: Element is not clickable at point (297, 702)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x0000000104afbabc cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000104af3a8c cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001045bf7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x000000010460d14c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393184
+4   chromedriver                        0x000000010460b674 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386312
+5   chromedriver                        0x00000001046093dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377456
+6   chromedriver                        0x000000010460877c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374288
+7   chromedriver                        0x00000001045fe8dc _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 333680
+8   chromedriver                        0x00000001045fe358 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332268
+9   chromedriver                        0x0000000104647448 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631516
+10  chromedriver                        0x00000001045fce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+11  chromedriver                        0x0000000104ab9248 cxxbridge1$str$ptr + 2920364
+12  chromedriver                        0x0000000104abca28 cxxbridge1$str$ptr + 2934668
+13  chromedriver                        0x0000000104a9f1fc cxxbridge1$str$ptr + 2813792
+14  chromedriver                        0x0000000104abd2a8 cxxbridge1$str$ptr + 2936844
+15  chromedriver                        0x0000000104a90024 cxxbridge1$str$ptr + 2751880
+16  chromedriver                        0x0000000104ae2988 cxxbridge1$str$ptr + 3090156
+17  chromedriver                        0x0000000104ae2b04 cxxbridge1$str$ptr + 3090536
+18  chromedriver                        0x0000000104af36e4 cxxbridge1$str$ptr + 3159112
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-23 19:21:23.051640 - Tracker started
+2026-04-23 19:21:23.052033 - Checking status...
+2026-04-23 19:21:30.400704 - Error: Message: element click intercepted: Element is not clickable at point (297, 703)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x0000000102f29ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000102f21e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001029e78d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000102a35570 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393716
+4   chromedriver                        0x0000000102a33a98 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386844
+5   chromedriver                        0x0000000102a31800 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377988
+6   chromedriver                        0x0000000102a30ba0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374820
+7   chromedriver                        0x0000000102a26d04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 334216
+8   chromedriver                        0x0000000102a26780 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332804
+9   chromedriver                        0x0000000102a6f84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+10  chromedriver                        0x0000000102a2527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+11  chromedriver                        0x0000000102ee7f60 cxxbridge1$str$ptr + 2943204
+12  chromedriver                        0x0000000102eeb744 cxxbridge1$str$ptr + 2957512
+13  chromedriver                        0x0000000102ecce50 cxxbridge1$str$ptr + 2832340
+14  chromedriver                        0x0000000102eebfc4 cxxbridge1$str$ptr + 2959688
+15  chromedriver                        0x0000000102ebd828 cxxbridge1$str$ptr + 2769324
+16  chromedriver                        0x0000000102f10920 cxxbridge1$str$ptr + 3109540
+17  chromedriver                        0x0000000102f10a9c cxxbridge1$str$ptr + 3109920
+18  chromedriver                        0x0000000102f21ae4 cxxbridge1$str$ptr + 3179624
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-23 19:21:59.248869 - Tracker started
+2026-04-23 19:21:59.249096 - Checking status...
+2026-04-23 19:22:06.455931 - Error: Message: element click intercepted: Element is not clickable at point (297, 675)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x00000001048e1ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001048d9e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x000000010439f8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001043ed570 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393716
+4   chromedriver                        0x00000001043eba98 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386844
+5   chromedriver                        0x00000001043e9800 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377988
+6   chromedriver                        0x00000001043e8ba0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374820
+7   chromedriver                        0x00000001043ded04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 334216
+8   chromedriver                        0x00000001043de780 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332804
+9   chromedriver                        0x000000010442784c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+10  chromedriver                        0x00000001043dd27c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+11  chromedriver                        0x000000010489ff60 cxxbridge1$str$ptr + 2943204
+12  chromedriver                        0x00000001048a3744 cxxbridge1$str$ptr + 2957512
+13  chromedriver                        0x0000000104884e50 cxxbridge1$str$ptr + 2832340
+14  chromedriver                        0x00000001048a3fc4 cxxbridge1$str$ptr + 2959688
+15  chromedriver                        0x0000000104875828 cxxbridge1$str$ptr + 2769324
+16  chromedriver                        0x00000001048c8920 cxxbridge1$str$ptr + 3109540
+17  chromedriver                        0x00000001048c8a9c cxxbridge1$str$ptr + 3109920
+18  chromedriver                        0x00000001048d9ae4 cxxbridge1$str$ptr + 3179624
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-23 19:24:20.223707 - Tracker started
+2026-04-23 19:24:20.224105 - Checking status...
+2026-04-23 19:24:27.789782 - Status changed: Status: Police report has been submitted by respective Thana and is under review at Commissioner of Police, District Ernakulam City.
+2026-04-23 19:25:10.523817 - Tracker started
+2026-04-23 19:25:10.523946 - Checking status...
+2026-04-23 19:25:17.731923 - No change
+2026-04-23 19:25:55.554844 - Tracker started
+2026-04-23 19:25:55.555418 - Checking status...
+2026-04-23 19:26:03.475970 - Error: Message: element click intercepted: Element is not clickable at point (297, 686)
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+0   chromedriver                        0x00000001051e1ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001051d9e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000104c9f8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000104ced570 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 393716
+4   chromedriver                        0x0000000104ceba98 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 386844
+5   chromedriver                        0x0000000104ce9800 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 377988
+6   chromedriver                        0x0000000104ce8ba0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 374820
+7   chromedriver                        0x0000000104cded04 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 334216
+8   chromedriver                        0x0000000104cde780 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332804
+9   chromedriver                        0x0000000104d2784c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+10  chromedriver                        0x0000000104cdd27c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+11  chromedriver                        0x000000010519ff60 cxxbridge1$str$ptr + 2943204
+12  chromedriver                        0x00000001051a3744 cxxbridge1$str$ptr + 2957512
+13  chromedriver                        0x0000000105184e50 cxxbridge1$str$ptr + 2832340
+14  chromedriver                        0x00000001051a3fc4 cxxbridge1$str$ptr + 2959688
+15  chromedriver                        0x0000000105175828 cxxbridge1$str$ptr + 2769324
+16  chromedriver                        0x00000001051c8920 cxxbridge1$str$ptr + 3109540
+17  chromedriver                        0x00000001051c8a9c cxxbridge1$str$ptr + 3109920
+18  chromedriver                        0x00000001051d9ae4 cxxbridge1$str$ptr + 3179624
+19  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+20  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-23 19:27:09.029130 - Tracker started
+2026-04-23 19:27:09.029604 - Checking status...
+2026-04-23 19:27:19.891116 - No change
+2026-04-23 19:27:35.525191 - Tracker started
+2026-04-23 19:27:35.525329 - Checking status...
+2026-04-23 19:27:43.809119 - No change
+2026-04-23 19:28:05.433853 - Tracker started
+2026-04-23 19:28:05.434133 - Checking status...
+2026-04-23 19:28:13.392294 - No change
+2026-04-23 19:28:43.963644 - Tracker started
+2026-04-23 19:28:43.963970 - Checking status...
+2026-04-23 19:28:52.297634 - No change
+2026-04-23 22:17:05.101076 - Tracker started
+2026-04-23 22:17:05.101662 - Checking status...
+2026-04-23 22:17:24.259821 - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select.form-select"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000101169ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000101161e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000100c278d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000100c6f8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000100caf84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000100c6527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000101127f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x000000010112b744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x000000010110ce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x000000010112bfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x00000001010fd828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000101150920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000101150a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000101161ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-23 22:24:05.242447 - Checking status...
+2026-04-23 22:24:14.338440 - No change
+2026-04-23 22:30:36.561588 - Tracker started
+2026-04-23 22:30:36.562537 - Checking status...
+2026-04-23 22:30:45.010104 - No change
+2026-04-24 10:32:02.968627 - Tracker started
+2026-04-24 10:32:02.969074 - Checking status...
+2026-04-24 10:32:15.717347 - Status changed: Status: Police Report has been submitted by Commissioner of Police, District Ernakulam City and action for passport printing is initiated, to be followed by lamination, signing, quality check and dispatch.
+2026-04-24 17:09:02.167271 - Checking status...
+2026-04-24 17:26:09.219890 - Error: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=147.0.7727.102)
+Stacktrace:
+0   chromedriver                        0x0000000100cf9ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000100cf1e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001007b78d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001007af97c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42496
+4   chromedriver                        0x00000001007a2158 cxxbridge1$string$len + 5152
+5   chromedriver                        0x00000001007a3c5c cxxbridge1$string$len + 12068
+6   chromedriver                        0x00000001007a25c0 cxxbridge1$string$len + 6280
+7   chromedriver                        0x00000001007a1dac cxxbridge1$string$len + 4212
+8   chromedriver                        0x00000001007a1a98 cxxbridge1$string$len + 3424
+9   chromedriver                        0x000000010079f65c chromedriver + 226908
+10  chromedriver                        0x00000001007a0128 chromedriver + 229672
+11  chromedriver                        0x00000001007badb8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88636
+12  chromedriver                        0x0000000100840304 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634760
+13  chromedriver                        0x000000010083f84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+14  chromedriver                        0x00000001007f527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+15  chromedriver                        0x0000000100cb7f60 cxxbridge1$str$ptr + 2943204
+16  chromedriver                        0x0000000100cbb744 cxxbridge1$str$ptr + 2957512
+17  chromedriver                        0x0000000100c9ce50 cxxbridge1$str$ptr + 2832340
+18  chromedriver                        0x0000000100cbbfc4 cxxbridge1$str$ptr + 2959688
+19  chromedriver                        0x0000000100c8d828 cxxbridge1$str$ptr + 2769324
+20  chromedriver                        0x0000000100ce0920 cxxbridge1$str$ptr + 3109540
+21  chromedriver                        0x0000000100ce0a9c cxxbridge1$str$ptr + 3109920
+22  chromedriver                        0x0000000100cf1ae4 cxxbridge1$str$ptr + 3179624
+23  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-24 21:35:15.902199 - Checking status...
+2026-04-24 21:35:48.764540 - No change
+2026-04-24 22:05:48.704881 - Checking status...
+2026-04-24 22:06:27.989937 - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select.form-select"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x00000001033a9ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x00000001033a1e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000102e678d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000102eaf8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000102eef84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000102ea527c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000103367f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x000000010336b744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x000000010334ce50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x000000010336bfc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x000000010333d828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000103390920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000103390a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x00000001033a1ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-24 22:36:27.943831 - Checking status...
+2026-04-24 22:36:35.479781 - No change
+2026-04-24 23:06:35.420686 - Checking status...
+2026-04-24 23:06:45.359098 - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select.form-select"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000101475ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x000000010146de8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x0000000100f338d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000100f7b8b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000100fbb84c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000100f7127c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000101433f60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x0000000101437744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x0000000101418e50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x0000000101437fc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x0000000101409828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x000000010145c920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x000000010145ca9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x000000010146dae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-25 01:03:42.958843 - Checking status...
+2026-04-25 01:03:43.244536 - Error: Could not reach host. Are you offline?
+2026-04-25 10:11:22.949872 - Checking status...
+2026-04-25 10:11:24.011295 - Error: Message: Service /Users/muhammadsheraz/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+
+2026-04-25 10:41:23.952033 - Checking status...
+2026-04-25 10:41:24.932314 - Error: Message: Service /Users/muhammadsheraz/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+
+2026-04-25 11:11:24.863581 - Checking status...
+2026-04-25 11:11:25.828364 - Error: Message: Service /Users/muhammadsheraz/.wdm/drivers/chromedriver/mac64/147.0.7727.117/chromedriver-mac-arm64/chromedriver unexpectedly exited. Status code was: -9
+
+2026-04-25 13:29:46.090499 - Checking status...
+2026-04-25 13:29:56.040157 - Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x0000000102c9debc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000102c95e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x000000010275b8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000102744780 chromedriver + 231296
+4   chromedriver                        0x0000000102768ab8 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 128828
+5   chromedriver                        0x00000001027cc558 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 537052
+6   chromedriver                        0x00000001027e337c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630784
+7   chromedriver                        0x000000010279927c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+8   chromedriver                        0x0000000102c5bf60 cxxbridge1$str$ptr + 2943204
+9   chromedriver                        0x0000000102c5f744 cxxbridge1$str$ptr + 2957512
+10  chromedriver                        0x0000000102c40e50 cxxbridge1$str$ptr + 2832340
+11  chromedriver                        0x0000000102c5ffc4 cxxbridge1$str$ptr + 2959688
+12  chromedriver                        0x0000000102c31828 cxxbridge1$str$ptr + 2769324
+13  chromedriver                        0x0000000102c84920 cxxbridge1$str$ptr + 3109540
+14  chromedriver                        0x0000000102c84a9c cxxbridge1$str$ptr + 3109920
+15  chromedriver                        0x0000000102c95ae4 cxxbridge1$str$ptr + 3179624
+16  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-25 15:28:45.661178 - Checking status...
+2026-04-25 15:28:59.960872 - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select.form-select"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000104f3debc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104f35e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x00000001049fb8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x0000000104a438b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x0000000104a8384c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x0000000104a3927c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000104efbf60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x0000000104eff744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x0000000104ee0e50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x0000000104efffc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x0000000104ed1828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000104f24920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000104f24a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000104f35ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-25 18:49:01.356912 - Checking status...
+2026-04-25 19:05:10.062173 - Error: HTTPConnectionPool(host='localhost', port=50687): Read timed out. (read timeout=120)
+2026-04-25 22:52:59.975252 - Checking status...
+2026-04-25 22:53:08.417613 - No change
+2026-04-25 23:23:08.369691 - Checking status...
+2026-04-25 23:23:30.449189 - No change
+2026-04-25 23:53:30.383452 - Checking status...
+2026-04-25 23:54:23.266223 - Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"select.form-select"}
+  (Session info: chrome=147.0.7727.102); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+0   chromedriver                        0x0000000104b81ebc cxxbridge1$str$ptr + 3213376
+1   chromedriver                        0x0000000104b79e8c cxxbridge1$str$ptr + 3180560
+2   chromedriver                        0x000000010463f8d4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75096
+3   chromedriver                        0x00000001046878b4 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369976
+4   chromedriver                        0x00000001046c784c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632016
+5   chromedriver                        0x000000010467d27c _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327424
+6   chromedriver                        0x0000000104b3ff60 cxxbridge1$str$ptr + 2943204
+7   chromedriver                        0x0000000104b43744 cxxbridge1$str$ptr + 2957512
+8   chromedriver                        0x0000000104b24e50 cxxbridge1$str$ptr + 2832340
+9   chromedriver                        0x0000000104b43fc4 cxxbridge1$str$ptr + 2959688
+10  chromedriver                        0x0000000104b15828 cxxbridge1$str$ptr + 2769324
+11  chromedriver                        0x0000000104b68920 cxxbridge1$str$ptr + 3109540
+12  chromedriver                        0x0000000104b68a9c cxxbridge1$str$ptr + 3109920
+13  chromedriver                        0x0000000104b79ae4 cxxbridge1$str$ptr + 3179624
+14  libsystem_pthread.dylib             0x00000001821f7c08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001821f2ba8 thread_start + 8
+
+2026-04-26 00:24:23.242347 - Checking status...
+2026-04-26 00:24:36.560359 - No change
+2026-04-26 00:54:36.550756 - Checking status...
+2026-04-26 00:54:44.469355 - No change
+2026-04-26 12:39:23.632518 - Checking status...
+2026-04-26 12:39:32.149607 - No change
+2026-04-26 17:01:57.615645 - Checking status...
+2026-04-26 17:02:05.054116 - No change
+2026-04-26 17:32:04.992511 - Checking status...
+2026-04-26 17:32:15.768573 - No change
+2026-04-26 18:17:13.505996 - Checking status...
+2026-04-26 18:17:22.403407 - No change
+2026-04-26 18:47:22.347244 - Checking status...
+2026-04-26 18:51:58.930483 - Error: HTTPConnectionPool(host='localhost', port=53867): Read timed out. (read timeout=120)
+2026-04-26 19:21:58.871498 - Checking status...
+2026-04-26 19:36:31.058931 - Error: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Read timed out. (read timeout=None)
+2026-04-26 20:33:42.923205 - Checking status...
+2026-04-26 20:33:50.878204 - No change
