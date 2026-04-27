@@ -84,14 +84,6 @@ def fetch_status():
 
         status = f"{label}: {value}"
 
-        status = f"""
-📄 Passport Update
-
-{status}
-
-⏱ {time.ctime()}
-"""
-
         browser.close()
         return status
 
@@ -106,7 +98,13 @@ def check_for_update():
         log(f"Status changed: {new_status}")
         save_status(new_status)
 
-        notify(new_status)
+        notify(f"""
+📄 Passport Update
+
+{new_status}
+
+⏱ {time.ctime()}
+""")
         print(new_status)
     else:
         log("No change")
